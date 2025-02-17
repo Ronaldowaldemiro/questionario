@@ -6,12 +6,22 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form method="post">
-        <label>nome do primeiro homem a nascer:</label>
-        <input type="text" name="pergunta1"><br><br>
-        <label>Nome do primeiro homem a morrer:</label>
-        <input type="text" name="pergunta2"><br><br>
-        <input type="submit" value="Enviar">
+    <h1>Questionário</h1>
+    <form id="questionario">
+        <p>Pergunta 1: Qual é a capital do Brasil?</p>
+        <input type="radio" name="pergunta1" value="Brasília"> Brasília
+        <input type="radio" name="pergunta1" value="Rio de Janeiro"> Rio de Janeiro
+        <input type="radio" name="pergunta1" value="São Paulo"> São Paulo
+
+        <p>Pergunta 2: Qual é o maior planeta do nosso sistema solar?</p>
+        <input type="radio" name="pergunta2" value="Terra"> Terra
+        <input type="radio" name="pergunta2" value="Júpiter"> Júpiter
+        <input type="radio" name="pergunta2" value="Saturno"> Saturno
+
+        <button id="enviar">Enviar</button>
     </form>
+    <div id="respostas"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>

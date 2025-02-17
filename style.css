@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-form {
+#questionario {
     width: 50%;
     margin: 40px auto;
     padding: 20px;
@@ -11,20 +11,7 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-label {
-    display: block;
-    margin-bottom: 10px;
-}
-
-input[type="text"] {
-    width: 100%;
-    height: 40px;
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-}
-
-input[type="submit"] {
+#enviar {
     width: 100%;
     height: 40px;
     background-color: #4CAF50;
@@ -35,6 +22,10 @@ input[type="submit"] {
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
+#enviar:hover {
     background-color: #3e8e41;
+}
+
+#respostas {
+    margin-top: 20px;
 }
