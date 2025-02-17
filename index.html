@@ -4,23 +4,77 @@
     <meta charset="UTF-8">
     <title>Questionário</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Questionário</h1>
     <form id="questionario">
-        <p>Pergunta 1: Qual é a capital do Brasil?</p>
-        <input type="radio" name="pergunta1" value="Brasília"> Brasília
-        <input type="radio" name="pergunta1" value="Rio de Janeiro"> Rio de Janeiro
-        <input type="radio" name="pergunta1" value="São Paulo"> São Paulo
+        <p>Pergunta 1: Quem foi o primeiro homem a nascer?</p>
+        <input type="radio" name="pergunta1" value="Adão" required> Adão
+        <input type="radio" name="pergunta1" value="Set"> Set
+        <input type="radio" name="pergunta1" value="Caim"> Caim
+        <input type="radio" name="pergunta1" value="Abel"> Abel
 
-        <p>Pergunta 2: Qual é o maior planeta do nosso sistema solar?</p>
-        <input type="radio" name="pergunta2" value="Terra"> Terra
-        <input type="radio" name="pergunta2" value="Júpiter"> Júpiter
-        <input type="radio" name="pergunta2" value="Saturno"> Saturno
+        <p>Pergunta 2: Quem foi o Primeiro homem a morrer?</p>
+        <input type="radio" name="pergunta2" value="Adão"> Adão
+        <input type="radio" name="pergunta2" value="Abel"> Abel
+        <input type="radio" name="pergunta2" value="Moisés"> Moisés	
+        <input type="radio" name="pergunta2" value="Set"> Set	
+
+        <p>Pergunta 3: Quem foi o profeta que predisse a destruição de Jerusalém?</p>
+        <input type="radio" name="pergunta3" value="Isaías"> Isaías
+        <input type="radio" name="pergunta3" value="Jeremias"> Jeremias
+        <input type="radio" name="pergunta3" value="Daniel"> Daniel	
+        <input type="radio" name="pergunta3" value="Elias"> Elias	
+
+        <p>Pergunta 4: Qual foi o nome do rei que construiu o Templo de Jerusalém?</p>
+        <input type="radio" name="pergunta4" value="Davi"> Davi
+        <input type="radio" name="pergunta4" value="Salomão"> Salomão
+        <input type="radio" name="pergunta4" value="Roboão"> Roboão	
+        <input type="radio" name="pergunta4" value="Ezequias"> Ezequias	
+
+        <p>Pergunta 5: Quem foi o anjo que anunciou o nascimento de Jesus?</p>
+        <input type="radio" name="pergunta5" value="Miguel"> Miguel
+        <input type="radio" name="pergunta5" value="Rafael"> Rafael
+        <input type="radio" name="pergunta5" value="Gabriel"> Gabriel	
+        <input type="radio" name="pergunta5" value="Uriel"> Uriel	
+
+        <p>Pergunta 6: Qual foi o nome do discípulo que traiu Jesus?</p>
+        <input type="radio" name="pergunta6" value="Judas Iscariotes"> Judas Iscariotes
+        <input type="radio" name="pergunta6" value="Pedro"> Pedro
+        <input type="radio" name="pergunta6" value="Judas Tadeu"> Judas Tadeu	
+        <input type="radio" name="pergunta6" value="Mateus"> Mateus	
+
+        <p>Pergunta 7: Quem foi o apóstolo que escreveu a maioria das epístolas do Novo Testamento?</p>
+        <input type="radio" name="pergunta7" value="Paulo"> Paulo
+        <input type="radio" name="pergunta7" value="Pedro"> Pedro
+        <input type="radio" name="pergunta7" value="João"> João	
+        <input type="radio" name="pergunta7" value="Tiago"> Tiago	
+
+        <p>Pergunta 8: Qual foi o nome do lugar onde Jesus foi crucificado?</p>
+        <input type="radio" name="pergunta8" value="Gólgota"> Gólgota
+        <input type="radio" name="pergunta8" value="Jerusalém"> Jerusalém
+        <input type="radio" name="pergunta8" value="Belém"> Belém	
+        <input type="radio" name="pergunta8" value="Betânia"> Betânia	
+
+        <p>Pergunta 9: Qual é o nome do livro mais longo da Bíblia?</p>
+        <input type="radio" name="pergunta9" value="Gênesis"> Gênesis
+        <input type="radio" name="pergunta9" value="Salmos"> Salmos
+        <input type="radio" name="pergunta9" value="Êxodo"> Êxodo	
+        <input type="radio" name="pergunta9" value="Levítico"> Levítico	
+
+        <p>Pergunta 10: Quem foi o autor do livro de Salmos?</p>
+        <input type="radio" name="pergunta10" value="Salomão"> Salomão
+        <input type="radio" name="pergunta10" value="Moisés"> Moisés
+        <input type="radio" name="pergunta10" value="Davi"> Davi	
+        <input type="radio" name="pergunta10" value="Isaías"> Isaías	
 
         <button id="enviar">Enviar</button>
+        <button id="refazer">Refazer</button>
     </form>
-    <div id="respostas"></div>
+    <div id="respostas">   
+        <p>Cada acerto vale +10 pontos e cada erro -10 pontos</p>
+        
+    </div>
 
     <script src="script.js"></script>
 </body>
