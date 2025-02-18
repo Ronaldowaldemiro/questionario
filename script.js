@@ -22,7 +22,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta1 === 'Caim') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta1);
 
@@ -31,7 +31,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta2 === 'Abel') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta2);
 
@@ -40,7 +40,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta3 === 'Jeremias') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta3);
 
@@ -49,7 +49,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta4 === 'Salomão') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta4);
     
@@ -58,7 +58,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta5 === 'Gabriel') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta5);
 
@@ -67,7 +67,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta6 === 'Judas Iscariotes') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta6);
 
@@ -76,7 +76,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta7 === 'Paulo') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta7);
 
@@ -85,7 +85,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta8 === 'Gólgota') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta8);
 
@@ -94,7 +94,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta9 === 'Salmos') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta9);
 
@@ -103,7 +103,7 @@ document.getElementById('enviar').addEventListener('click', function(event) {
     if (pergunta10 === 'Davi') {
         pontuacao += 10;
     } else {
-        pontuacao -= 10;
+        pontuacao === 0;
     }
     respostas.appendChild(resposta10);
 
